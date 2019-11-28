@@ -2,7 +2,7 @@ package ufba.decorator.app;
 
 import ufba.decorator.lib.Usuario;
 import ufba.decorator.lib.UsuarioDAO;
-
+//Sub classe que é responsável por verificar o IP
 public class UsuarioDAOAutenticacaoDecorator extends UsuarioDAODecorator {
 	private String ip;
 

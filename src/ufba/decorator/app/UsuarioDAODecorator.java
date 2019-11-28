@@ -3,6 +3,7 @@ package ufba.decorator.app;
 import ufba.decorator.lib.Usuario;
 import ufba.decorator.lib.UsuarioDAO;
 
+//decorador que implementa a interface UsuarioDAO
 public class UsuarioDAODecorator implements UsuarioDAO{
 	protected UsuarioDAO usuarioDAO;
 	

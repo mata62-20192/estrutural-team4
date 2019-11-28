@@ -2,7 +2,7 @@ package ufba.decorator.app;
 
 import ufba.decorator.lib.Usuario;
 import ufba.decorator.lib.UsuarioDAO;
-
+//Sub classe que é responsavel por filtrar o usuario
 public class UsuarioDAOFiltroDecorator extends UsuarioDAODecorator{
 	
 	protected UsuarioDAOFiltroDecorator(UsuarioDAO usuarioDAO) {
