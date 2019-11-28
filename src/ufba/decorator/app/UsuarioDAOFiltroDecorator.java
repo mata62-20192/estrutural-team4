@@ -3,7 +3,7 @@ package ufba.decorator.app;
 import ufba.decorator.lib.Usuario;
 import ufba.decorator.lib.UsuarioDAO;
 
-public class UsuarioDAOFiltroDecorator extends UsuarioDAODecorator implements UsuarioDAO{
+public class UsuarioDAOFiltroDecorator extends UsuarioDAODecorator{
 	
 	protected UsuarioDAOFiltroDecorator(UsuarioDAO usuarioDAO) {
 		super(usuarioDAO);

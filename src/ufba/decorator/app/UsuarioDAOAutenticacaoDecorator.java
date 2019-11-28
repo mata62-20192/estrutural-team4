@@ -3,7 +3,7 @@ package ufba.decorator.app;
 import ufba.decorator.lib.Usuario;
 import ufba.decorator.lib.UsuarioDAO;
 
-public class UsuarioDAOAutenticacaoDecorator extends UsuarioDAODecorator implements UsuarioDAO{
+public class UsuarioDAOAutenticacaoDecorator extends UsuarioDAODecorator {
 	private String ip;
 
 	public UsuarioDAOAutenticacaoDecorator(UsuarioDAO usuarioDAO, String ip) {
