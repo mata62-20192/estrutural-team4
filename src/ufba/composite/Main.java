@@ -12,19 +12,19 @@ public class Main {
   	Designer daVinci = new Designer("Leonardo da Vinci", 2.0);
   	
   	Equipe microsoft = new Equipe("Microsoft");
-  	microsoft.addPessoa(gates);
-  	microsoft.addPessoa(allen);
+  	microsoft.add(gates);
+  	microsoft.add(allen);
   	
   	Equipe apple = new Equipe("Apple");
-  	apple.addPessoa(ive);
-  	apple.addPessoa(jobs);
+  	apple.add(ive);
+  	apple.add(jobs);
   	
   	Equipe consorcio = new Equipe("Consorcio");
-  	consorcio.addSubequipe(microsoft);
-  	consorcio.addSubequipe(apple);
-  	consorcio.addPessoa(torvalds);
+  	consorcio.add(microsoft);
+  	consorcio.add(apple);
+  	consorcio.add(torvalds);
   	
-    EstatisticasFinanceiras.imprimeCustoProjeto(gates);
+    EstatisticasFinanceiras.imprimeCustoProjeto(microsoft);
     EstatisticasFinanceiras.imprimeCustoProjeto(apple);
     EstatisticasFinanceiras.imprimeCustoProjeto(consorcio);
   }
