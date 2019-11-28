@@ -23,6 +23,8 @@ public class Main {
   	consorcio.add(microsoft);
   	consorcio.add(apple);
   	consorcio.add(torvalds);
+  	consorcio.add(daVinci);
+  	consorcio.add(knuth);
   	
     EstatisticasFinanceiras.imprimeCustoProjeto(microsoft);
     EstatisticasFinanceiras.imprimeCustoProjeto(apple);
